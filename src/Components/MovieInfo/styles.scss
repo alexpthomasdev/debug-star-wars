@@ -1,0 +1,22 @@
+.movieInfoContainer {
+  background: black;
+  text-align: center;
+  color: yellow;
+  a {
+    display: block;
+  }
+  .more-info {
+    border-radius: 20px;
+    border: 5px solid yellow;
+    width: 70%;
+    text-align: left;
+    font-size: 40px;
+    color: yellow;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 20px;
+    span {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.Error404 {
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #000;
+  text-align: center;
+  color: #feda4a;
+
+  label {
+    font-size: 13em;
+    vertical-align: middle;
+  }
+  img {
+    vertical-align: middle;
+    height: 276px;
+  }
+
+  .errorMessage {
+    font-size: 2em;
+    span {
+      display: block;
+      font-size: 2.2em;
+    }
+    a {
+      text-decoration: none;
+      color: #feda4a;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
