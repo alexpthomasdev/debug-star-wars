@@ -9,13 +9,18 @@ import "./styles.scss";
 const MovieInfo = () => {
   const { id } = useParams();
 
-  const requestURL = `https://www.swapi.tech/api/film/${id}`;
+  /**
+   * SWAPI FILMS ENDPOINT https://www.swapi.tech/documentation#films
+   */
+
+  const requestURL = `https://www.swapi.tech/api/films/${id}`;
   const [data, setData] = useState(null);
 
   useEffect(() => {
     fetch(`${requestURL}`)
       .then((response) => response.json())
       .then((value) => {
+        debugger;
         setData(value.result.properties);
       })
       .catch((e) => console.error(`OH NO!! There was an error: ${e}`));

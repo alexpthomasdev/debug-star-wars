@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import logo from "../../Star_Wars_logo.png";
-import logo from "../../logo.svg";
+import logo from "../../Star_Wars_logo.png";
+// import logo from "../../logo.svg";
 import "./styles.scss";
 
 const Home = () => {
